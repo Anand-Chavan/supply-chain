@@ -1,0 +1,22 @@
+.mat-tab-group
+{
+  margin-bottom: 50px;
+  /*width: 800px;*/
+  background-color: rgb(250, 212, 223);
+  color: white;
+}
+
+.matcard
+{
+	background-color: rgb(242, 58, 108);
+	font-size: 40px;
+	color: white;
+	height: 70px;
+}
+
+.bodyclass
+{
+	background-color: rgb(237, 211, 218);
+}
+
+

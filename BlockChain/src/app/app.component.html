@@ -1,0 +1,19 @@
+<header>
+  <div align="center">
+    <mat-card class="matcard"><b>Automotive Supply Chain</b></mat-card>
+  </div>
+</header>
+<body class="bodyclass">
+  <mat-tab-group mat-stretch-tabs>
+    <mat-tab label="producer" class="mat"> 
+      <app-retailer></app-retailer> 
+    </mat-tab>
+    <mat-tab label="middleware" class="mat"> 
+      <app-middleware></app-middleware> 
+    </mat-tab>
+    <mat-tab label="shopkeeper" class="mat"> 
+      <app-shopkeerer></app-shopkeerer> 
+    </mat-tab>
+</mat-tab-group>
+</body>
+<router-outlet></router-outlet>
